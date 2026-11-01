@@ -111,37 +111,4 @@ ShortsInShort/
 
 ---
 
-## 🏃 Getting Started
 
-### 1. Prerequisites
-- **Node.js**: v18.0.0 or higher
-- **MongoDB**: Local `mongod` instance or MongoDB Atlas connection string
-
-### 2. Installation
-```bash
-# Install server and client dependencies
-npm run install:all
-```
-
-### 3. Running Development Servers
-In two separate terminals:
-
-```bash
-# Terminal 1: Run Backend API (Port 5000)
-cd server
-npm run dev
-
-# Terminal 2: Run Frontend UI (Port 5173)
-cd client
-npm run dev
-```
-
-- **Frontend Application**: `http://localhost:5173`
-- **Backend API & Health**: `http://localhost:5000/api/health`
-
-### 4. Running Backend Integration Tests
-```bash
-cd server
-npm test
-```
-*Current test suite: 9 passed (100% success).*
